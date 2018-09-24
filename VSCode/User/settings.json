@@ -1,0 +1,67 @@
+// Place your settings in this file to overwrite the default settings
+{
+	"terminal.external.osxExec": "iTerm.app",
+	"terminal.integrated.shell.osx": "/bin/zsh",
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"window.zoomLevel": 0,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"python.pythonPath": "python3",
+	"sync.gist": "23318df65c0bd45a4ed6bf5d080dce58",
+	"sync.autoDownload": false,
+	"sync.autoUpload": false,
+	"sync.forceDownload": false,
+	"sync.quietSync": false,
+	"sync.askGistName": false,
+	"gitlens.advanced.messages": {
+		"suppressCommitHasNoPreviousCommitWarning": false,
+		"suppressCommitNotFoundWarning": false,
+		"suppressFileNotUnderSourceControlWarning": false,
+		"suppressGitVersionWarning": false,
+		"suppressLineUncommittedWarning": false,
+		"suppressNoRepositoryWarning": false,
+		"suppressResultsExplorerNotice": false,
+		"suppressShowKeyBindingsNotice": true,
+		"suppressUpdateNotice": true,
+		"suppressWelcomeNotice": true
+	},
+	"explorer.confirmDragAndDrop": false,
+	"diffEditor.ignoreTrimWhitespace": true,
+	"gitlens.keymap": "chorded",
+	"gitlens.codeLens.scopes": [
+		"document",
+		"containers"
+	],
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	"extensions.ignoreRecommendations": false,
+	"gitlens.historyExplorer.enabled": true,
+	"javascript.implicitProjectConfig.experimentalDecorators": true,
+	"editor.fontSize": 13,
+	"eslint.autoFixOnSave": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+	"editor.fontLigatures": true,
+	"workbench.fontAliasing": "antialiased",
+	"editor.fontWeight": "500",
+	"editor.lineHeight": 21,
+	"material-icon-theme.folders.color": "#90a4ae",
+	"files.autoSave": "afterDelay",
+	"go.enableCodeLens": {
+		"runtest": true
+	},
+	"javascript.referencesCodeLens.enabled": true,
+	"sync.removeExtensions": true,
+	"sync.syncExtensions": true,
+	"workbench.colorTheme": "One Dark Pro Vivid",
+	"typescript.implementationsCodeLens.enabled": true,
+	"typescript.referencesCodeLens.enabled": true,
+	"search.exclude": {
+		"**/node_modules": false,
+		"**/bower_components": true
+	},
+	"breadcrumbs.enabled": true,
+	"go.useLanguageServer": true,
+}

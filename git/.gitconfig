@@ -1,0 +1,8 @@
+[user]
+	name = Hriddhi Dey
+	email = hriddhidey@gmail.com
+[core]
+	excludesfile = ~/.gitignore_global
+
+[commit]
+	template = /Users/300006812/.stCommitMsg

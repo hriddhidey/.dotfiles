@@ -1,0 +1,35 @@
+VISUAL STUDIO CODE SETTINGS SYNC 
+Version: 2.8.4
+
+Upload Summary
+
+--------------------
+GITHUB TOKEN: f8838b1cad535341631ecaeab759838f568e1a92
+GITHUB GIST: 23318df65c0bd45a4ed6bf5d080dce58
+GITHUB GIST TYPE: Secret
+
+--------------------
+
+If current theme / file icon extension is not installed. Restart will be Required to Apply Theme and File Icon.
+
+
+Files Upload.
+
+extensions.json
+settings.json
+
+
+EXTENSIONS ADDED :
+
+code-runner - Version :0.8.3
+code-settings-sync - Version :2.8.4
+githistory - Version :0.2.3
+gitlens - Version :5.7.1
+Go - Version :0.6.66
+java - Version :0.13.0
+JavaScriptSnippets - Version :1.5.0
+Material-theme - Version :2.10.17
+node-debug2 - Version :1.18.4
+python - Version :0.7.0
+vscode-eslint - Version :1.4.2
+vscode-react-native - Version :0.5.1
