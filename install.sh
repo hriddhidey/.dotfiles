@@ -6,6 +6,9 @@ brew bundle -v
 ln -sfv "./git/.gitconfig" ~
 ln -sfv "./git/.gitignore_global" ~
 
+# Installing oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 # Installing plugins
 echo "Installing plugins for history search, auto complete, and syntax highlight.
 
