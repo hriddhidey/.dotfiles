@@ -1,3 +1,5 @@
+DOTFILESDIR="`pwd`"
+
 # Brew install basic dependencies
 echo "Installing Brew dependencies"
 brew bundle -v
@@ -50,18 +52,18 @@ chmod +x ~/bin/cht.sh
 
 # Setup goto
 chmod +x ./zsh/.goto.sh
-ln -sfv ./zsh/.goto.sh ~/
+ln -sfv "$DOTFILESDIR/zsh/.goto.sh" ~/
 
 
 ##--- Symlink necessary files ---##
 
 # Symlink .zsh files
-ln -sfv "./zsh/.zshrc" ~
-ln -sfv "./zsh/.zsh_aliases" ~
+ln -sfv "$DOTFILESDIR/zsh/.zshrc" ~/
+ln -sfv "$DOTFILESDIR/zsh/.zsh_aliases" ~/
 source ~/.zshrc
 
 # Symlink .vimrc
-ln -sfv "./vimrc" ~
+ln -sfv "$DOTFILESDIR/vimrc" ~
 
 ###_______________________________________###
 ###--------- Terminal Setup Done ---------###
@@ -70,7 +72,7 @@ ln -sfv "./vimrc" ~
 
 # Setup VSCode
 cat extensions.list | xargs -L1 code --install-extension
-ln -s ./VSCode/settings.json ~/Library/Application\ Support/Code/User/settings.json
-ln -s ./VSCode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
-ln -s ./VSCode/snippets/ ~/Library/Application\ Support/Code/User/snippets
+ln -sfv "$DOTFILESDIR/VSCode/settings.json" ~/Library/Application\ Support/Code/User/settings.json
+ln -sfv "$DOTFILESDIR/VSCode/keybindings.json" ~/Library/Application\ Support/Code/User/keybindings.json
+ln -sfv "$DOTFILESDIR/VSCode/snippets/" ~/Library/Application\ Support/Code/User/snippets
 
