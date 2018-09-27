@@ -170,3 +170,4 @@ alias sudo='nocorrect sudo'
 alias updatedb='sudo /usr/libexec/locate.updatedb'
 alias which-command=whence
 alias cheat="~/bin/cht.sh --shell"
+alias goto="~/.goto.sh"
