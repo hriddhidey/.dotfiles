@@ -6,4 +6,4 @@ echo "Directory - $DIRECTORY"
 echo "Requested file - $FILENAME"
 cd "$DIRECTORY"
 pwd
-open $FILENAME
+open "$FILENAME"
