@@ -6,7 +6,7 @@ The `install.sh` will do the needful for you. In order, it will do the following
 * Install brew dependencies mentioned in Brewfile.
 * Symlink gitconfig and gitignore_global files.
 * Setup zsh for you.
-* Setup VSCode for you.
+* Setup VSCode extension for you.
 * Install cht.sh for you.
 
 After the script installs, do the followin - 

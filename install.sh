@@ -71,8 +71,4 @@ ln -sfv "$DOTFILESDIR/vimrc" ~
 
 
 # Setup VSCode
-cat extensions.list | xargs -L1 code --install-extension
-ln -sfv "$DOTFILESDIR/VSCode/settings.json" ~/Library/Application\ Support/Code/User/settings.json
-ln -sfv "$DOTFILESDIR/VSCode/keybindings.json" ~/Library/Application\ Support/Code/User/keybindings.json
-ln -sfv "$DOTFILESDIR/VSCode/snippets/" ~/Library/Application\ Support/Code/User/snippets
-
+bash VSCode/setup.sh

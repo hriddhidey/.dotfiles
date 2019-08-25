@@ -1,6 +1,4 @@
-alias updatedb="sudo /usr/libexec/locate.updatedb"
 alias servethis="python -c 'import SimpleHTTPServer; SimpleHTTPServer.test()'"
-#alias jump="ssh jumphost.myntra.com -l hriddhi.dey"
 alias -='cd -'
 alias ...=../..
 alias ....=../../..
